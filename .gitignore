@@ -33,3 +33,23 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# env
+.env
+
+# Radon
+.vscode/**/*
+
+# test coverage
+coverage/**/*
+
+# signing credentials
+credentials.json
+
+# ios & android for CNG
+ios/
+android/
+
+# eas builds
+*.aab
+*.ipa
